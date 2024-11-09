@@ -1,0 +1,6 @@
+[user]
+    name = "gh0sty"
+    email = "nice140@icloud.com"
+
+[includeIf "gitdir:/Users/gh0sty/Documents/dev/error-helper/**"]
+    path = /Users/gh0sty/Documents/dev/error-helper/next-error-helper/.gitconfig   
