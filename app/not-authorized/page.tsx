@@ -12,10 +12,10 @@ const NotAuthorized = () => {
       <p className="mb-6">You do not have access to this page.</p>
       <Button
         color="primary"
-        onClick={() => router.push('/login')}
+        onClick={() => router.push('/sign-in')}
         className="w-1/3"
       >
-        Back to Login
+        Back to Sign In
       </Button>
     </div>
   );
