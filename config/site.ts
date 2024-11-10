@@ -1,5 +1,6 @@
 export type SiteConfig = typeof siteConfig;
 
+// ll change later 
 export const siteConfig = {
   name: "Error Helper",
   description: "Make beautiful websites regardless of your design experience.",
