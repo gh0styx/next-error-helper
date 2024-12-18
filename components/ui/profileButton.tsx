@@ -54,9 +54,8 @@ export default function ProfileButton() {
           <DropdownTrigger>
             <Avatar
               isBordered
-              size="sm"
               as="button"
-              className="transition-transform"
+              className="transition-transform w-6 h-6"
               src=""
             />
           </DropdownTrigger>
@@ -81,9 +80,8 @@ export default function ProfileButton() {
           <DropdownTrigger>
             <Avatar
               isBordered
-              size="sm"
               as="button"
-              className="transition-transform"
+              className="transition-transform w-6 h-6"
               src=""
             />
           </DropdownTrigger>

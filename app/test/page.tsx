@@ -1,11 +1,14 @@
-import CreatePost from '@/components/posts/createPost';
+import SideBar from '@/components/SideBar';
+import { SidebarProvider } from '@/components/ui/sidebar';
 import React from 'react';
 
 const page = () => {
   return (
-    <div>
-      <CreatePost />
-    </div>
+    <>
+      <SidebarProvider>
+        <SideBar />
+      </SidebarProvider>
+    </>
   );
 };
 
